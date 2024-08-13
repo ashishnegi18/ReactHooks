@@ -47,7 +47,7 @@ const UseEffectHook = () => {
           setJokes(`${data.setup} - ${data.delivery}`);
         }
       })
-      .catch((error) => console.error("Error fetching the joke:", error));
+      .catch((error) => console.error("Error fetch the joke:", error));
   }
 
   return (
