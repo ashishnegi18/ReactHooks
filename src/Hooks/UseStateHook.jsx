@@ -26,17 +26,19 @@ const UseStateHook = () => {
       <button onClick={CallWinter}>Winter</button>
       <button onClick={CallRainy}>Rainy</button>
 
-      {/* <ul style={{ listStyle: "none" }}>
+      <ul style={{ listStyle: "none" }}>
         {currentArray.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
-      </ul> */}
-      <table style={{ border: "2px solid black" }}>
-        <th style={{ border: "2px solid black" }}></th>
+      </ul>
+      {/* <table style={{ border: "2px solid black" }}>
         {currentArray.map((item, index) => (
-          <tr key={index}>{item}</tr>
+          <tr key={index}>
+            {item}
+            <th style={{ border: "2px solid black" }}></th>
+          </tr>
         ))}
-      </table>
+      </table> */}
     </>
   );
 };
